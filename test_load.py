@@ -5,7 +5,7 @@ import time
 # 設定要打的目標和併發數量
 URL_SYNC = "http://127.0.0.1:8000/sync-endpoint"
 URL_ASYNC = "http://127.0.0.1:8000/async-endpoint"
-REQUESTS_COUNT = 50
+REQUESTS_COUNT = 85
 
 async def fetch(client, url):
     """發送單一請求"""
